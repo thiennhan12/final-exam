@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;   
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.header-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: linear-gradient(45deg, #ff0844 0%, #ffb199 100%);
+    height: 70px;
+    width: 100%;
+    top: 0;
+}
+
+.header-content .logo {
+    color: white;
+    text-shadow: 3px 3px 3px rgba(255, 255, 255, 0.6);
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.header-content .nav-content {
+    list-style: none;
+    height: 100%;
+}
+
+.header-content .nav-content .nav-item {
+    float: left;
+    height: 100%;
+    font-weight: 600;
+}
+
+.header-content .nav-content .nav-item .simple-link {
+    display: block;
+    padding: 25px 20px;
+    height: 100%;
+    text-align: center;
+    font-size: 120%;
+    
+
+    color: white;
+    background-color: none;
+    transition-duration: .8s;
+}
+
+.header-content .nav-content .nav-item .simple-link:hover {
+    background-color: white;
+    transition-duration: .3s;   
+    color: #ff0844;
+}
+
+/* #about us */
+.about-us_wrapper {
+    background-image: url(/assets/img/aboutusbg.png);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.about-us_content {
+    background-image: url(/assets/img/aboutusoverlay.png);
+    background-size: cover;
+    text-align: center;
+    padding: 20% 0 10%;
+}
+
+.about-us_content .about-us_title {
+    font-size: 400%;
+} 
+.about-us_content .about-us_contact-lists {
+    font-size: 150%;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.about-us_content p {
+    font-size: 120%;
+    margin-top: 6px;
+}
+
+.about-us_content .about-us_socials {
+    margin-top: 10px;
+}
+
+.about-us_content .about-us_socials .about-us_social-item {
+    font-weight: 700;
+    font-size: 150%;
+}
+.about-us_content .about-us_socials .about-us_social-item .facebook {
+    display: inline-block;
+    transition-duration: .5s;
+}
+.about-us_content .about-us_socials .about-us_social-item .facebook:hover {
+    transform: translateX(10px);
+    color: dodgerblue;
+    transition-duration: .3s;
+}
+.about-us_content .about-us_socials .about-us_social-item .youtube {
+    display: inline-block;
+    transition-duration: .5s;
+}
+.about-us_content .about-us_socials .about-us_social-item .youtube:hover {
+    color: crimson;
+    transition-duration: .3s;
+    transform: translateX(-10px);
+}
+.about-us_content .about-us_socials .about-us_social-item .twitter {
+    display: inline-block;
+    transition-duration: .5s;
+}
+.about-us_content .about-us_socials .about-us_social-item .twitter:hover {
+    color: deepskyblue;
+    transition-duration: .3s;
+    transform: translateX(10px);
+}
+.about-us_content .about-us_socials .about-us_social-item .tumblr {
+    display: inline-block;
+    transition-duration: .5s;
+}
+.about-us_content .about-us_socials .about-us_social-item .tumblr:hover {
+    color: darkslateblue;
+    transition-duration: .3s;
+    transform: translateX(-10px);
+}
+
+/* #footer */
+
+
+.footer-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 200px;
+    background-image: linear-gradient(45deg, #ff0844 0%, #ffb199 100%);
+}
+
+.footer-content .contact h3 {   
+    font-size: 150%; 
+    color: white;
+    text-shadow: 3px 3px 3px rgba(255, 255, 255, 0.6);
+    text-align: center;
+}
+
+.footer-content .logo {
+    color: white;
+    text-align: center;
+}
+
+.footer-content .logo h1 {
+    text-shadow: 3px 3px 3px rgba(255, 255, 255, 0.6);
+    font-size: 300%;
+    letter-spacing: 5px;
+}
+
+.footer-content .logo p {
+    text-shadow: 3px 3px 3px rgba(255, 255, 255, 0.6);
+}
+
+.footer-content .logo .career {
+    letter-spacing: 5px;
+    margin-top: -10px;
+}
+
+.footer-content .about-us {
+    color: white;
+}
+
+.footer-content .about-us h3 {
+    text-shadow: 3px 3px 3px rgba(255, 255, 255, 0.6);
+    font-size: 150%;
+}
+
+.footer-content .about-us .about-us-list .about-us-item {
+    transition-duration: .3s;
+}
+.footer-content .about-us .about-us-list .about-us-item:hover {
+    color: deeppink;
+    transition-duration: .3s;
+}
+
+.footer-content .informations {
+    color: white;
+    text-align: center;
+}
+
+.footer-content .informations h3 {
+    text-shadow: 3px 3px 3px rgba(255, 255, 255, 0.6);
+    font-size: 150%;
+}
+
+.footer-content .contact-list {
+    display: flex;
+    list-style: none;
+}
+
+.footer-content .contact-list .contact-item {
+    margin: auto 10px;
+}
+
+.footer-content .contact-list .contact-item .facebook i{
+    color: white;
+    font-size: 300%;
+
+    transition-duration: .3s;
+}
+
+.footer-content .contact-list .contact-item .facebook i:hover{
+    scale: 1.1;
+    transition-duration: .3s;
+}
+
+.footer-content .contact-list .contact-item .facebook i:active {
+    color: steelblue;
+    transition-duration: 0s;
+}
+
+.footer-content .contact-list .contact-item .youtube i{
+    color: white;
+    font-size: 300%;
+    
+    transition-duration: .3s;
+}
+
+.footer-content .contact-list .contact-item .youtube i:hover{
+    scale: 1.1;
+    transition-duration: .3s;
+}
+
+.footer-content .contact-list .contact-item .youtube i:active {
+    color: crimson;
+    transition-duration: 0s;
+}
+
+.footer-content .contact-list .contact-item .twitter i{
+    color: white;
+    font-size: 300%;
+
+    transition-duration: .3s;
+}
+
+.footer-content .contact-list .contact-item .twitter i:hover{
+    scale: 1.1;
+    transition-duration: .3s;
+}
+
+.footer-content .contact-list .contact-item .twitter i:active {
+    color: deepskyblue;
+    transition-duration: 0s;
+}
+
+.footer-content .contact-list .contact-item .tumblr i{
+    color: white;
+    font-size: 300%;
+
+    transition-duration: .3s;
+}
+
+.footer-content .contact-list .contact-item .tumblr i:hover{
+    scale: 1.1;
+    transition-duration: .3s;
+}
+
+.footer-content .contact-list .contact-item .tumblr i:active {
+    color: cadetblue;
+    transition-duration: 0s;
+}
